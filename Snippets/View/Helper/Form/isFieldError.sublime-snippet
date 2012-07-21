@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$this->Form->isFieldError(${1:\$field});
+$0
+]]></content>
+  <description>$this-&gt;Form-&gt;isFieldError()</description>
+  <tabTrigger>isFieldError</tabTrigger>
+  <scope>text.html.ctp</scope>
+</snippet>

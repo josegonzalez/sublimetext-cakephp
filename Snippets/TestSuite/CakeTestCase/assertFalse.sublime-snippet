@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$this->assetFalse(${1:\$result});
+$0
+]]></content>
+  <description>$this-&gt;assetFalse()</description>
+  <tabTrigger>assetFalse</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

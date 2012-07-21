@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$this->Form->meridian(${1:\$fieldName}, ${2:\$attributes});
+$0
+]]></content>
+  <description>$this-&gt;Form-&gt;meridian()</description>
+  <tabTrigger>meridian</tabTrigger>
+  <scope>text.html.ctp</scope>
+</snippet>

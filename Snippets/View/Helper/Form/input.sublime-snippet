@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$this->Form->input(${1:\$fieldName}, ${2:\$options});
+$0
+]]></content>
+  <description>$this-&gt;Form-&gt;input()</description>
+  <tabTrigger>input</tabTrigger>
+  <scope>text.html.ctp</scope>
+</snippet>

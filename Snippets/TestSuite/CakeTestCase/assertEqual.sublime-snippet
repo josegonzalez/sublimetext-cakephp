@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$this->assetEqual(${1:\$result}, ${2:\$expected});
+$0
+]]></content>
+  <description>$this-&gt;assertEqual()</description>
+  <tabTrigger>assertEqual</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

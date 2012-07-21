@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$this->Form->label(${1:\$fieldName}, ${2:\$text}, ${3:\$options});
+$0
+]]></content>
+  <description>$this-&gt;Form-&gt;label()</description>
+  <tabTrigger>label</tabTrigger>
+  <scope>text.html.ctp</scope>
+</snippet>

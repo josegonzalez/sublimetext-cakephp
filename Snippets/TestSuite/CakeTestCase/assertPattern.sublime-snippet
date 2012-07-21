@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$this->assertPattern(${1:'/${2:pattern}/'}, ${3:\$result});
+$0
+]]></content>
+  <description>$this-&gt;assertPattern()</description>
+  <tabTrigger>assertPattern</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

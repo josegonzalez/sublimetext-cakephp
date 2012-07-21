@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$this->Form->inputDefaults(${1:\$defaults}, ${2:\$merge});
+$0
+]]></content>
+  <description>$this-&gt;Form-&gt;inputDefaults()</description>
+  <tabTrigger>inputDefaults</tabTrigger>
+  <scope>text.html.ctp</scope>
+</snippet>

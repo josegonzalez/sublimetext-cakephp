@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$this->Form->select(${1:\$fieldName}, ${2:\$options}, ${3:\$attributes});
+$0
+]]></content>
+  <description>$this-&gt;Form-&gt;select()</description>
+  <tabTrigger>select</tabTrigger>
+  <scope>text.html.ctp</scope>
+</snippet>

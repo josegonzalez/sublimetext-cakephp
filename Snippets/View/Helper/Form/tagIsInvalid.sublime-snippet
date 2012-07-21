@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$this->Form->tagIsInvalid();
+$0
+]]></content>
+  <description>$this-&gt;Form-&gt;tagIsInvalid()</description>
+  <tabTrigger>tagIsInvalid</tabTrigger>
+  <scope>text.html.ctp</scope>
+</snippet>

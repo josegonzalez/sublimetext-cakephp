@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+\$this->Form->month(${1:\$fieldName}, ${2:\$attributes});
+$0
+]]></content>
+  <description>$this-&gt;Form-&gt;month()</description>
+  <tabTrigger>month</tabTrigger>
+  <scope>text.html.ctp</scope>
+</snippet>
