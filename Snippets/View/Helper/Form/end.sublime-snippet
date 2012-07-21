@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-\$this->Form->end(${1:\$options});
+\$this->Form->end(${1:\$options = null});
 $0
 ]]></content>
   <description>$this-&gt;Form-&gt;end()</description>

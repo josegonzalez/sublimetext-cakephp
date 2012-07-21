@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-\$this->Form->textarea(${1:\$fieldName}, ${2:\$options});
+\$this->Form->textarea(${1:\$fieldName}${2:, \$options = array()});
 $0
 ]]></content>
   <description>$this-&gt;Form-&gt;textarea()</description>
