@@ -1,26 +1,24 @@
 {
   "scope": "source.php - variable.other.php",
-
-  "completions":
-  [
-	{"trigger": "config", "contents": "config('${1:config}')" },
-	{"trigger": "debug", "contents": "debug(${1:\\$var}${2:, \\$showHtml = null}${3:, \\$showFrom = true})" },
-	{"trigger": "h", "contents": "h(${1:\\$text}${2:, \\$double = true}${3:, \\$charset = null})" },
-	{"trigger": "pluginSplit", "contents": "pluginSplit(${1:\\$name}${2:, \\$dotAppend = true}${3:, \\$plugin = null})" },
-	{"trigger": "pr", "contents": "pr(${1:\\$var})" },
-	{"trigger": "env", "contents": "env(${1:\\$key})" },
-	{"trigger": "cache", "contents": "cache(${1:\\$path}${2:, \\$data = null}${3:, \\$expires = '+1 day'}${4:, \\$target = 'cache'})" },
-	{"trigger": "clearCache", "contents": "clearCache(${1:\\$params = null}${2:, \\$type = 'views'}${3:, \\$ext = '.php'})" },
-	{"trigger": "stripslashes_deep", "contents": "stripslashes_deep(${1:\\$values})" },
-	{"trigger": "__", "contents": "__(${1:\\$singular}${2:, \\$args = null})" },
-	{"trigger": "__n", "contents": "__n(${1:\\$singular}, ${2:\\$plural}, ${3:\\$count}${4:, \\$args = null})" },
-	{"trigger": "__d", "contents": "__d(${1:\\$domain}, ${2:\\$msg}${3:, \\$args = null})" },
-	{"trigger": "__dn", "contents": "__dn(${1:\\$domain}, ${2:\\$singular}, ${3:\\$plural}, ${4:\\$count}${5:, \\$args = null})" },
-	{"trigger": "__dc", "contents": "__dc(${1:\\$domain}, ${2:\\$msg}, ${3:\\$category}${4:, \\$args = null})" },
-	{"trigger": "__dcn", "contents": "__dcn(${1:\\$domain}, ${2:\\$singular}, ${3:\\$plural}, ${4:\\$count}, ${5:\\$category}${6:, \\$args = null})" },
-	{"trigger": "__c", "contents": "__c(${1:\\$msg}, ${2:\\$category}${3:, \\$args = null})" },
-	{"trigger": "LogError", "contents": "LogError(${1:\\$message})" },
-	{"trigger": "fileExistsInPath", "contents": "fileExistsInPath(${1:\\$file})" },
-	{"trigger": "convertSlash", "contents": "convertSlash(${1:\\$string})" }
+  "completions": [
+		{"trigger": "config", "contents": "config('${1:config}')" },
+		{"trigger": "debug", "contents": "debug(${1:\\$var}${2:, \\$showHtml = null}${3:, \\$showFrom = true})" },
+		{"trigger": "h", "contents": "h(${1:\\$text}${2:, \\$double = true}${3:, \\$charset = null})" },
+		{"trigger": "pluginSplit", "contents": "pluginSplit(${1:\\$name}${2:, \\$dotAppend = true}${3:, \\$plugin = null})" },
+		{"trigger": "pr", "contents": "pr(${1:\\$var})" },
+		{"trigger": "env", "contents": "env(${1:\\$key})" },
+		{"trigger": "cache", "contents": "cache(${1:\\$path}${2:, \\$data = null}${3:, \\$expires = '+1 day'}${4:, \\$target = 'cache'})" },
+		{"trigger": "clearCache", "contents": "clearCache(${1:\\$params = null}${2:, \\$type = 'views'}${3:, \\$ext = '.php'})" },
+		{"trigger": "stripslashes_deep", "contents": "stripslashes_deep(${1:\\$values})" },
+		{"trigger": "__", "contents": "__(${1:\\$singular}${2:, \\$args = null})" },
+		{"trigger": "__n", "contents": "__n(${1:\\$singular}, ${2:\\$plural}, ${3:\\$count}${4:, \\$args = null})" },
+		{"trigger": "__d", "contents": "__d(${1:\\$domain}, ${2:\\$msg}${3:, \\$args = null})" },
+		{"trigger": "__dn", "contents": "__dn(${1:\\$domain}, ${2:\\$singular}, ${3:\\$plural}, ${4:\\$count}${5:, \\$args = null})" },
+		{"trigger": "__dc", "contents": "__dc(${1:\\$domain}, ${2:\\$msg}, ${3:\\$category}${4:, \\$args = null})" },
+		{"trigger": "__dcn", "contents": "__dcn(${1:\\$domain}, ${2:\\$singular}, ${3:\\$plural}, ${4:\\$count}, ${5:\\$category}${6:, \\$args = null})" },
+		{"trigger": "__c", "contents": "__c(${1:\\$msg}, ${2:\\$category}${3:, \\$args = null})" },
+		{"trigger": "LogError", "contents": "LogError(${1:\\$message})" },
+		{"trigger": "fileExistsInPath", "contents": "fileExistsInPath(${1:\\$file})" },
+		{"trigger": "convertSlash", "contents": "convertSlash(${1:\\$string})" }
   ]
 }
