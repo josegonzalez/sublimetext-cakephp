@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-\$this->Form->inputDefaults(${1:\$defaults = null}${2:, \$merge = false});
-$0
-]]></content>
-  <description>$this-&gt;Form-&gt;inputDefaults()</description>
-  <tabTrigger>inputDefaults</tabTrigger>
-  <scope>text.html.ctp</scope>
-</snippet>

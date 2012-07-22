@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-\$this->Form->end(${1:\$options = null});
-$0
-]]></content>
-  <description>$this-&gt;Form-&gt;end()</description>
-  <tabTrigger>end</tabTrigger>
-  <scope>text.html.ctp</scope>
-</snippet>

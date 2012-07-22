@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-\$this->Form->year(${1:\$fieldName}${2:, \$minYear = null}${3:, \$maxYear = null}${4:, \$attributes = array()});
-$0
-]]></content>
-  <description>$this-&gt;Form-&gt;year()</description>
-  <tabTrigger>year</tabTrigger>
-  <scope>text.html.ctp</scope>
-</snippet>

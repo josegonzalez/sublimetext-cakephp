@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-\$this->Form->checkbox(${1:\$fieldName}${2:, \$options = array()});
-$0
-]]></content>
-  <description>$this-&gt;Form-&gt;checkbox()</description>
-  <tabTrigger>checkbox</tabTrigger>
-  <scope>text.html.ctp</scope>
-</snippet>

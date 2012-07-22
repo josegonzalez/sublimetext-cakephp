@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-\$this->Form->button(${1:\$title}${2:, \$options = array()});
-$0
-]]></content>
-  <description>$this-&gt;Form-&gt;button()</description>
-  <tabTrigger>button</tabTrigger>
-  <scope>text.html.ctp</scope>
-</snippet>

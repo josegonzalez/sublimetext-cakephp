@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-\$this->Form->file(${1:\$fieldName}${2:, \$options = array()});
-$0
-]]></content>
-  <description>$this-&gt;Form-&gt;file()</description>
-  <tabTrigger>file</tabTrigger>
-  <scope>text.html.ctp</scope>
-</snippet>

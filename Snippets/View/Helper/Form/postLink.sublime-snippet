@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-\$this->Form->postLink(${1:\$title}${2:, \$url = null}${3:, \$options = array()}${4:, \$confirmMessage = false});
-$0
-]]></content>
-  <description>$this-&gt;Form-&gt;postLink()</description>
-  <tabTrigger>postLink</tabTrigger>
-  <scope>text.html.ctp</scope>
-</snippet>

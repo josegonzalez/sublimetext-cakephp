@@ -1,0 +1,33 @@
+{
+  "scope": "text.html.ctp",
+  "completions": [
+        {"trigger": "button", "contents": "\\$this->Form->button(${1:\\$title}${2:, \\$options = array()});" },
+        {"trigger": "checkbox", "contents": "\\$this->Form->checkbox(${1:\\$fieldName}${2:, \\$options = array()});" },
+        {"trigger": "create", "contents": "\\$this->Form->create(${1:\\$model = null}${2:, \\$options = array()});" },
+        {"trigger": "dateTime", "contents": "\\$this->Form->dateTime(${1:\\$fieldName}${2:, \\$dateFormat = 'DMY'}${3:, \\$timeFormat = '12'}${4:, \\$attributes = array()});" },
+        {"trigger": "day", "contents": "\\$this->Form->day(${1:\\$fieldName = null}${2:, \\$attributes = array()});" },
+        {"trigger": "end", "contents": "\\$this->Form->end(${1:\\$options = null});" },
+        {"trigger": "error", "contents": "\\$this->Form->error(${1:\\$field}${2:, \\$text = null}${3:, \\$options = array()});" },
+        {"trigger": "file", "contents": "\\$this->Form->file(${1:\\$fieldName}${2:, \\$options = array()});" },
+        {"trigger": "hidden", "contents": "\\$this->Form->hidden(${1:\\$fieldName}${2:, \\$options = array()});" },
+        {"trigger": "hour", "contents": "\\$this->Form->hour(${1:\\$fieldName}${2:, \\$format24hours = false}${3:, \\$options = array()});" },
+        {"trigger": "input", "contents": "\\$this->Form->input(${1:\\$fieldName}${2:, \\$options = array()});" },
+        {"trigger": "inputDefaults", "contents": "\\$this->Form->inputDefaults(${1:\\$defaults = null}${2:, \\$merge = false});" },
+        {"trigger": "inputs", "contents": "\\$this->Form->inputs(${1:\\$fields = null}${2:, \\$blacklist = null});" },
+        {"trigger": "isFieldError", "contents": "\\$this->Form->isFieldError(${1:\\$field});" },
+        {"trigger": "label", "contents": "\\$this->Form->label(${1:\\$fieldName = null}${2:, \\$text = null}${3:, \\$options = array()});" },
+        {"trigger": "meridian", "contents": "\\$this->Form->meridian(${1:\\$fieldName}${2:, \\$attributes = array()});" },
+        {"trigger": "minute", "contents": "\\$this->Form->minute(${1:\\$fieldName}${2:, \\$attributes = array()});" },
+        {"trigger": "month", "contents": "\\$this->Form->month(${1:\\$fieldName}${2:, \\$attributes = array()});" },
+        {"trigger": "postButton", "contents": "\\$this->Form->postButton(${1:\\$title}${2:, \\$url}${3:, \\$options = array()});" },
+        {"trigger": "postLink", "contents": "\\$this->Form->postLink(${1:\\$title}${2:, \\$url = null}${3:, \\$options = array()}${4:, \\$confirmMessage = false});" },
+        {"trigger": "radio", "contents": "\\$this->Form->radio(${1:\\$fieldName}${2:, \\$options = array()}${3:, \\$attributes = array()});" },
+        {"trigger": "secure", "contents": "\\$this->Form->secure(${1:\\$fields = array()});" },
+        {"trigger": "select", "contents": "\\$this->Form->select(${1:\\$fieldName}${2:, \\$options = array()}${3:, \\$attributes = array()});" },
+        {"trigger": "submit", "contents": "\\$this->Form->submit(${1:\\$caption = null}${2:, \\$options = array()});" },
+        {"trigger": "tagIsInvalid", "contents": "\\$this->Form->tagIsInvalid();" },
+        {"trigger": "textarea", "contents": "\\$this->Form->textarea(${1:\\$fieldName}${2:, \\$options = array()});" },
+        {"trigger": "unlockField", "contents": "\\$this->Form->unlockField(${1:\\$name = null});" },
+        {"trigger": "year", "contents": "\\$this->Form->year(${1:\\$fieldName}${2:, \\$minYear = null}${3:, \\$maxYear = null}${4:, \\$attributes = array()});" }
+    ]
+}

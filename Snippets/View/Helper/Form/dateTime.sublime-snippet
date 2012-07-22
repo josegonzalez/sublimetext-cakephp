@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-\$this->Form->dateTime(${1:\$fieldName}${2:, \$dateFormat = 'DMY'}${3:, \$timeFormat = '12'}${4:, \$attributes = array()});
-$0
-]]></content>
-  <description>$this-&gt;Form-&gt;datetime()</description>
-  <tabTrigger>datetime</tabTrigger>
-  <scope>text.html.ctp</scope>
-</snippet>

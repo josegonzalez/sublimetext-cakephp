@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-\$this->Form->error(${1:\$field}${2:, \$text = null}${3:, \$options = array()});
-$0
-]]></content>
-  <description>$this-&gt;Form-&gt;error()</description>
-  <tabTrigger>error</tabTrigger>
-  <scope>text.html.ctp</scope>
-</snippet>

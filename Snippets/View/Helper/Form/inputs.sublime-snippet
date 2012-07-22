@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-\$this->Form->inputs(${1:\$fields = null}${2:, \$blacklist = null});
-$0
-]]></content>
-  <description>$this-&gt;Form-&gt;inputs()</description>
-  <tabTrigger>inputs</tabTrigger>
-  <scope>text.html.ctp</scope>
-</snippet>

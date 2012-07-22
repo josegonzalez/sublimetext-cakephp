@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-\$this->Form->day(${1:\$fieldName = null}${2:, \$attributes = array()});
-$0
-]]></content>
-  <description>$this-&gt;Form-&gt;day()</description>
-  <tabTrigger>day</tabTrigger>
-  <scope>text.html.ctp</scope>
-</snippet>
