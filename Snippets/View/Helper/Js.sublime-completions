@@ -1,0 +1,30 @@
+{
+  "scope": "text.html.ctp",
+  "completions": [
+        {"trigger": "alert", "contents": "\\$this->Js->alert(${1:\\$message});" },
+        {"trigger": "buffer", "contents": "\\$this->Js->buffer(${1:\\$script}${2:, \\$top = false});" },
+        {"trigger": "confirm", "contents": "\\$this->Js->confirm(${1:\\$message});" },
+        {"trigger": "confirmReturn", "contents": "\\$this->Js->confirmReturn(${1:\\$message});" },
+        {"trigger": "domReady", "contents": "\\$this->Js->domReady(${1:\\$functionBody});" },
+        {"trigger": "drag", "contents": "\\$this->Js->drag(${1:\\$options = array()});" },
+        {"trigger": "drop", "contents": "\\$this->Js->drop(${1:\\$options = array()});" },
+        {"trigger": "each", "contents": "\\$this->Js->each(${1:\\$callback});" },
+        {"trigger": "effect", "contents": "\\$this->Js->effect(${1:\\$name}${2:, \\$options = array()});" },
+        {"trigger": "escape", "contents": "\\$this->Js->escape(${1:\\$string});" },
+        {"trigger": "event", "contents": "\\$this->Js->event(${1:\\$type}${2:, \\$callback}${3:, \\$options = array()});" },
+        {"trigger": "get", "contents": "\\$this->Js->get(${1:\\$selector});" },
+        {"trigger": "getBuffer", "contents": "\\$this->Js->getBuffer(${1:\\$clear = true});" },
+        {"trigger": "link", "contents": "\\$this->Js->link(${1:\\$title}${2:, \\$url = null}${3:, \\$options = array()});" },
+        {"trigger": "object", "contents": "\\$this->Js->object(${1:\\$data = array()}${2:, \\$options = array()});" },
+        {"trigger": "prompt", "contents": "\\$this->Js->prompt(${1:\\$message}${2:, \\$default = ''});" },
+        {"trigger": "redirect", "contents": "\\$this->Js->redirect(${1:\\$url = null});" },
+        {"trigger": "request", "contents": "\\$this->Js->request(${1:\\$url}${2:, \\$options = array()});" },
+        {"trigger": "serializeForm", "contents": "\\$this->Js->serializeForm(${1:\\$options = array()});" },
+        {"trigger": "set", "contents": "\\$this->Js->set(${1:\\$one}${2:, \\$two = null});" },
+        {"trigger": "slider", "contents": "\\$this->Js->slider(${1:\\$options = array()});" },
+        {"trigger": "sortable", "contents": "\\$this->Js->sortable(${1:\\$options = array()});" },
+        {"trigger": "submit", "contents": "\\$this->Js->submit(${1:\\$caption = null}${2:, \\$options = array()});" },
+        {"trigger": "writeBuffer", "contents": "\\$this->Js->writeBuffer(${1:\\$options = array()});" },
+        {"trigger": "value", "contents": "\\$this->Js->value(${1:\\$val = array()}${2:, \\$quoteString = null}${3:, \\$key = 'value'});" }
+    ]
+}
