@@ -1,0 +1,15 @@
+<snippet>
+	<content>
+<![CDATA[
+		'${1}' => array('className' => '${2}',
+							'foreignKey' => '${3}',
+							'conditions' => ${4:array()},
+							'fields' => ${5:array()},
+							'order' => ${6:''},
+		),
+]]>
+	</content>
+	<description>Adds a relation detail to a model</description>
+	<tabTrigger>relationdetail</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
