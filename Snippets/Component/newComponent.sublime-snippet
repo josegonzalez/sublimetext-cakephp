@@ -1,0 +1,43 @@
+<snippet>
+	<content>
+<![CDATA[
+class ${1:Skeleton}Component extends Object {
+    //called before Controller::beforeFilter()
+    public function initialize(&\$controller, \$settings = array()) {
+        // saving the controller reference for later use
+        \$this->controller =& \$controller;
+        \$this->settings = am(\$this->settings, \$settings);
+        ${2:// Add method body here}
+    }
+
+    //called after Controller::beforeFilter()
+    public function startup(&\$controller) {
+        ${3:// Add method body here}
+    }
+
+    //called after Controller::beforeRender()
+    public function beforeRender(&\$controller) {
+        ${4:// Add method body here}
+    }
+
+    //called after Controller::render()
+    public function shutdown(&\$controller) {
+        ${5:// Add method body here}
+    }
+
+    //called before Controller::redirect()
+    public function beforeRedirect(&\$controller, \$url, \$status = null, \$exit = true) {
+        ${6:// Add method body here}
+    }
+
+    public function redirect{7:SomewhereElse}(\$value) {
+        // utilizing a controller method
+        \$this->controller->redirect(\$value);
+    }
+}
+]]>
+</content>
+	<description>Creates a new component</description>
+	<tabTrigger>newcomponent</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content>
+<![CDATA[
+	class ${1:SkeletonModel} extends AppModel {
+	
+		public $name = '${2:Skeleton}';
+		public $useTable = ${3:false};
+	}
+	]]>
+	</content>
+	<description>Creates an empty model</description>
+	<tabTrigger>createmodel</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
