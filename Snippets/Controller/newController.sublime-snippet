@@ -1,0 +1,40 @@
+<snippet>
+	<content>
+<![CDATA[
+	class ${1:Skeleton}Controller extends ${2:AppController} {
+
+		public $name = '${3:Skeleton}';
+		public $uses = ${4:array()};
+		public $components = ${5:array()};
+		public $helpers = ${6:array()};
+
+		public function beforeFilter() {
+			${7://Add method body here}
+		}
+
+		public function index() {
+			${8://Add method body here}
+		}
+
+		public function create() {
+			${9://Add method body here}
+		}
+
+		public function edit(${10:\$id = null}) {
+			${11://Add method body here}
+		}
+
+		public function view(${12:\$id = null}) {
+			${13://Add method body here}
+		}
+
+		public function delete(${14:\$id = null}) {
+			${15://Add method body here}
+		}
+	}
+]]>
+</content>
+	<description>Creates a new controller</description>
+	<tabTrigger>newcontroller</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

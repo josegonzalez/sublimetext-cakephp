@@ -1,0 +1,17 @@
+<snippet>
+	<content>
+<![CDATA[
+	public $belongsTo = array(
+		'${1}' => array('className' => '${2}',
+							'foreignKey' => '${3}',
+							'conditions' => ${4:array()},
+							'fields' => ${5:array()},
+							'order' => ${6:''},
+		)
+	);
+]]>
+	</content>
+	<description>Adds a belongsTo relation to a model</description>
+	<tabTrigger>addbelongsto</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
