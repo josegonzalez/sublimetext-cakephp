@@ -1,0 +1,62 @@
+<snippet>
+	<content>
+<![CDATA[
+	class ${1:Skeleton}Controller extends ${2:AppController} {
+
+		public $name = '${3:Skeleton}';
+		public $uses = ${4:array()};
+		public $components = ${5:array()};
+		public $helpers = ${6:array()};
+
+		public function beforeFilter() {
+			${7://Add method body here}
+		}
+
+		public function index() {
+			${8://Add method body here}
+		}
+
+		public function create() {
+			${9://Add method body here}
+		}
+
+		public function edit(${10:\$id = null}) {
+			${11://Add method body here}
+		}
+
+		public function view(${12:\$id = null}) {
+			${13://Add method body here}
+		}
+
+		public function delete(${14:\$id = null}) {
+			${15://Add method body here}
+		}
+
+		//Actions for admin routes
+		public function ${16:admin}_index() {
+			${17://Add method body here}
+		}
+
+		public function ${18:admin}_create() {
+			${19://Add method body here}
+		}
+
+		public function ${20:admin}_edit(${21:\$id = null}) {
+			${22://Add method body here}
+		}
+
+		public function ${23:admin}_view(${24:\$id = null}) {
+			${25://Add method body here}
+		}
+
+		public function ${26:admin}_delete(${27:\$id = null}) {
+			${28://Add method body here}
+		}
+
+	}
+]]>
+</content>
+	<description>Creates a new controller with admin routes</description>
+	<tabTrigger>newcontrolleradmin</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
