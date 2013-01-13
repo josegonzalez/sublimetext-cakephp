@@ -1,5 +1,5 @@
 {
-  "scope": "text.html.ctp",
+  "scope": "source.php - variable.other.php",
   "completions": [
         {"trigger": "button", "contents": "\\$this->Form->button(${1:\\$title}${2:, \\$options = array()});" },
         {"trigger": "checkbox", "contents": "\\$this->Form->checkbox(${1:\\$fieldName}${2:, \\$options = array()});" },
