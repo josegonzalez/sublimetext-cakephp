@@ -1,0 +1,14 @@
+{
+  "scope": "source.php - variable.other.php",
+  "completions": [
+        {"trigger": "autoLinkEmails", "contents": "\\$this->Text->autoLinkEmails(${1:\\$text}${2:, \\$options = array()});" },
+        {"trigger": "autoLinkUrls", "contents": "\\$this->Text->autoLinkUrls(${1:\\$text}${2:, \\$htmlOptions = array()});" },
+        {"trigger": "autoLink", "contents": "\\$this->Text->autoLink(${1:\\$text}${2:, \\$htmlOptions = array()});" },
+        {"trigger": "highlight", "contents": "\\$this->Text->highlight(${1:\\$haystack}${2:, \\$needle}${3:, \\$options = array()});" },
+        {"trigger": "stripLinks", "contents": "\\$this->Text->stripLinks(${1:\\$text});" },
+        {"trigger": "truncate", "contents": "\\$this->Text->truncate(${1:\\$text}${2:, \\$length = 100}${3:, \\$options = array()});" },
+        {"trigger": "tail", "contents": "\\$this->Text->tail(${1:\\$text}${2:, \\$length = 100}${3:, \\$options = array()});" },
+        {"trigger": "excerpt", "contents": "\\$this->Text->excerpt(${1:\\$haystack}${2:, \\$needle}${3:, \\$radius = 100}${4:, \\$ellipsis = '...'});" },
+        {"trigger": "toList", "contents": "\\$this->Text->toList(${1:\\$list = array()}${2:, \\$and = 'and'});" }
+    ]
+}
