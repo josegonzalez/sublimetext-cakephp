@@ -1,0 +1,23 @@
+{
+  "scope": "source.php - variable.other.php",
+  "completions": [
+        {"trigger": "sort", "contents": "\\$this->Paginator->sort(${1:\\$key}${2:, \\$title = null}${3:, \\$options = array()});" },
+        {"trigger": "sortDir", "contents": "\\$this->Paginator->sortDir(${1:\\$model = null}${2:, \\$options = array()});" },
+        {"trigger": "sortKey", "contents": "\\$this->Paginator->sortKey(${1:\\$model = null}${2:, \\$options = array()});" },
+        {"trigger": "numbers", "contents": "\\$this->Paginator->numbers(${1:\\$options = array()});" },
+        {"trigger": "prev", "contents": "\\$this->Paginator->prev(${1:\\$title = '<< Previous'}${2:, \\$options = array()}${3:, \\$disabledTitle = null}${4:, \\$disabledOptions = array()});" },
+        {"trigger": "next", "contents": "\\$this->Paginator->next(${1:\\$title = 'Next >>'}${2:, \\$options = array()}${3:, \\$disabledTitle = null}${4:, \\$disabledOptions = array()});" },
+        {"trigger": "first", "contents": "\\$this->Paginator->first(${1:\\$first = '<< first'}${2:, \\$options = array()});" },
+        {"trigger": "last", "contents": "\\$this->Paginator->last(${1:\\$last = 'last >>'}${2:, \\$options = array()});" },
+        {"trigger": "current", "contents": "\\$this->Paginator->current(${1:\\$model = null});" },
+        {"trigger": "hasNext", "contents": "\\$this->Paginator->hasNext(${1:\\$model = null});" },
+        {"trigger": "hasPrev", "contents": "\\$this->Paginator->hasPrev(${1:\\$model = null});" },
+        {"trigger": "hasPage", "contents": "\\$this->Paginator->hasPage(${1:\\$model = null}${2:, \\$page = 1});" },
+        {"trigger": "counter", "contents": "\\$this->Paginator->counter(${1:\\$options = array()});" },
+        {"trigger": "options", "contents": "\\$this->Paginator->options(${1:\\$options = array()});" },
+        {"trigger": "link", "contents": "\\$this->Paginator->link(${1:\\$title}${2:, \\$url = array()}${3:, \\$options = array()});" },
+        {"trigger": "url", "contents": "\\$this->Paginator->url(${1:\\$options = array()}${2:, \\$asArray = false}${3:, \\$model = null});" },
+        {"trigger": "defaultModel", "contents": "\\$this->Paginator->defaultModel();" },
+        {"trigger": "params", "contents": "\\$this->Paginator->params(${1:\\$model = null});" }
+    ]
+}
