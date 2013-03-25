@@ -1,0 +1,10 @@
+{
+  "scope": "source.php - variable.other.php",
+  "completions": [
+        {"trigger": "read", "contents": "\\$this->Session->read(${1:\\$key});" },
+        {"trigger": "check", "contents": "\\$this->Session->check(${1:\\$key});" },
+        {"trigger": "error", "contents": "\\$this->Session->error();" },
+        {"trigger": "valid", "contents": "\\$this->Session->valid();" },
+        {"trigger": "flash", "contents": "\\$this->Session->flash(${1:\\$key = 'flash'}${2:, \\$params = array()});" }
+    ]
+}
