@@ -1,0 +1,31 @@
+{
+  "scope": "source.php - variable.other.php",
+  "completions": [
+        {"trigger": "convert", "contents": "\\$this->Time->convert(${1:\\$serverTime}${2:, \\$timezone = null});" },
+        {"trigger": "convertSpecifiers", "contents": "\\$this->Time->convertSpecifiers(${1:\\$format}${2:, \\$time = null});" },
+        {"trigger": "dayAsSql", "contents": "\\$this->Time->dayAsSql(${1:\\$dateString}${2:, \\$field_name}${3:, \\$timezone = null});" },
+        {"trigger": "daysAsSql", "contents": "\\$this->Time->daysAsSql(${1:\\$begin}${2:, \\$end}${3:, \\$fieldName}${4:, \\$timezone = null});" },
+        {"trigger": "format", "contents": "\\$this->Time->format(${1:\\$format}${2:, \\$dateString = null}${3:, \\$invalid = false}${4:, \\$timezone = null});" },
+        {"trigger": "fromString", "contents": "\\$this->Time->fromString(${1:\\$dateString}${2:, \\$timezone = null});" },
+        {"trigger": "gmt", "contents": "\\$this->Time->gmt(${1:\\$dateString = null});" },
+        {"trigger": "i18nFormat", "contents": "\\$this->Time->i18nFormat(${1:\\$date}${2:, \\$format = null}${3:, \\$invalid = false}${4:, \\$timezone = null});" },
+        {"trigger": "nice", "contents": "\\$this->Time->nice(${1:\\$dateString = null}${2:, \\$timezone = null}${3:, \\$format = null});" },
+        {"trigger": "niceShort", "contents": "\\$this->Time->niceShort(${1:\\$dateString = null}${2:, \\$timezone = null});" },
+        {"trigger": "serverOffset", "contents": "\\$this->Time->serverOffset();" },
+        {"trigger": "timeAgoInWords", "contents": "\\$this->Time->timeAgoInWords(${1:\\$dateString}${2:, \\$options = array()});" },
+        {"trigger": "toAtom", "contents": "\\$this->Time->toAtom(${1:\\$dateString}${2:, \\$timezone = null});" },
+        {"trigger": "toQuarter", "contents": "\\$this->Time->toQuarter(${1:\\$dateString}${2:, \\$range = false});" },
+        {"trigger": "toRSS", "contents": "\\Time->toRSS(${1:\\$dateString}${2:, \\$timezone = null});" },
+        {"trigger": "toUnix", "contents": "\\Time->toUnix(${1:\\$dateString}${2:, \\$timezone = null});" },
+        {"trigger": "toServer", "contents": "\\$this->Time->toServer(${1:\\$dateString}${2:, \\$timezone = null}${3:, \\$format = 'Y-m-d H:i:s'});" },
+        {"trigger": "timezone", "contents": "\\$this->Time->timezone(${1:\\$timezone = null});" },
+        {"trigger": "listTimezones", "contents": "\\$this->Time->listTimezones(${1:\\$filter = null}${2:, \\$country = null}${3:, \\$group = true});" },
+        {"trigger": "isToday", "contents": "\\$this->Time->isToday(${1:\\$dateString}${2:, \\$timezone = null});" },
+        {"trigger": "isThisWeek", "contents": "\\$this->Time->isThisWeek(${1:\\$dateString}${2:, \\$timezone = null});" },
+        {"trigger": "isThisMonth", "contents": "\\$this->Time->isThisMonth(${1:\\$dateString}${2:, \\$timezone = null});" },
+        {"trigger": "isThisYear", "contents": "\\$this->Time->isThisYear(${1:\\$dateString}${2:, \\$timezone = null});" },
+        {"trigger": "wasYesterday", "contents": "\\$this->Time->wasYesterday(${1:\\$dateString}${2:, \\$timezone = null});" },
+        {"trigger": "isTomorrow", "contents": "\\$this->Time->isTomorrow(${1:\\$dateString}${2:, \\$timezone = null});" },
+        {"trigger": "wasWithinLast", "contents": "\\$this->Time->wasWithinLast(${1:\\$timeInterval}${2:, \\$dateString}${3:, \\$timezone = null});" }
+    ]
+}
