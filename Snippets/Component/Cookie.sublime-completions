@@ -1,0 +1,11 @@
+{
+  "scope": "source.php - variable.other.php",
+  "completions": [
+        {"trigger": "write", "contents": "\\$this->Cookie->write(${1:\\$key}${2:, \\$value = null}${3:, \\$encrypt = true}${4:, \\$expires = null});" },
+        {"trigger": "read", "contents": "\\$this->Cookie->read(${1:\\$key = null});" },
+        {"trigger": "check", "contents": "\\$this->Cookie->check(${1:\\$key});" },
+        {"trigger": "delete", "contents": "\\$this->Cookie->delete(${1:\\$key});" },
+        {"trigger": "destroy", "contents": "\\$this->Cookie->destroy();" },
+        {"trigger": "type", "contents": "\\$this->Cookie->type(${1:\\$type});" }
+    ]
+}
