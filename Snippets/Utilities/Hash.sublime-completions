@@ -1,0 +1,27 @@
+{
+  "scope": "source.php - variable.other.php",
+  "completions": [
+        {"trigger": "get", "contents": "\\Hash::get(${1:\\$data}${2:, \\$path});" },
+        {"trigger": "extract", "contents": "\\Hash::extract(${1:\\$data}${2:, \\$path});" },
+        {"trigger": "insert", "contents": "\\Hash::insert(${1:\\$data}${2:, \\$path}${3:, \\$values = null});" },
+        {"trigger": "remove", "contents": "\\Hash::remove(${1:\\$data}${2:, \\$path = null});" },
+        {"trigger": "combine", "contents": "\\Hash::combine(${1:\\$data}${2:, \\$keyPath = null}${3:, \\$valuePath = null}${4:, \\$groupPath = null});" },
+        {"trigger": "format", "contents": "\\Hash::format(${1:\\$data}${2:, \\$paths}${3:, \\$format});" },
+        {"trigger": "contains", "contents": "\\Hash::contains(${1:\\$data}${2:, \\$needle});" },
+        {"trigger": "check", "contents": "\\Hash::check(${1:\\$data}${2:, \\$path = null});" },
+        {"trigger": "filter", "contents": "\\Hash::filter(${1:\\$data}${2:, \\$callback = array('Hash', 'filter')});" },
+        {"trigger": "flatten", "contents": "\\Hash::flatten(${1:\\$data}${2:, \\$separator = '.'});" },
+        {"trigger": "expand", "contents": "\\Hash::expand(${1:\\$data}${2:, \\$separator = '.'});" },
+        {"trigger": "merge", "contents": "\\Hash::merge(${1:\\$data}${2:, \\$merge});" },
+        {"trigger": "numeric", "contents": "\\Hash::numeric(${1:\\$data});" },
+        {"trigger": "dimensions", "contents": "\\Hash::dimensions(${1:\\$data});" },
+        {"trigger": "maxDimensions", "contents": "\\Hash::maxDimensions(${1:\\$data});" },
+        {"trigger": "map", "contents": "\\Hash::map(${1:\\$data}${2:, \\$path}${3:, \\$function});" },
+        {"trigger": "reduce", "contents": "\\Hash::reduce(${1:\\$data}${2:, \\$path}${3:, \\$function});" },
+        {"trigger": "sort", "contents": "\\Hash::sort(${1:\\$data}${2:, \\$path}${3:, \\$dir}${4:, \\$type = 'regular'});" },
+        {"trigger": "diff", "contents": "\\Hash::diff(${1:\\$data}${2:, \\$compare});" },
+        {"trigger": "mergeDiff", "contents": "\\Hash::mergeDiff(${1:\\$data}${2:, \\$compare});" },
+        {"trigger": "normalize", "contents": "\\Hash::normalize(${1:\\$data}${2:, \\$assoc = true});" },
+        {"trigger": "nest", "contents": "\\Hash::nest(${1:\\$data}${2:, \\$options = array()});" },
+    ]
+}
