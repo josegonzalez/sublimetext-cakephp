@@ -3,10 +3,10 @@
 <![CDATA[
 	class ${1:Skeleton}Controller extends ${2:AppController} {
 
-		public $name = '${3:Skeleton}';
-		public $uses = ${4:array()};
-		public $components = ${5:array()};
-		public $helpers = ${6:array()};
+		public \$name = '${3:Skeleton}';
+		public \$uses = ${4:array()};
+		public \$components = ${5:array()};
+		public \$helpers = ${6:array()};
 
 		public function beforeFilter() {
 			${7://Add method body here}

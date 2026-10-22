@@ -3,8 +3,8 @@
 <![CDATA[
 	class ${1:SkeletonModel} extends AppModel {
 	
-		public $name = '${2:Skeleton}';
-		public $useTable = ${3:false};
+		public \$name = '${2:Skeleton}';
+		public \$useTable = ${3:false};
 	}
 	]]>
 	</content>

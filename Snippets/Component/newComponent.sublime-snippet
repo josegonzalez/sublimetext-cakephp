@@ -30,7 +30,7 @@ class ${1:Skeleton}Component extends Object {
         ${6:// Add method body here}
     }
 
-    public function redirect{7:SomewhereElse}(\$value) {
+    public function redirect${7:SomewhereElse}(\$value) {
         // utilizing a controller method
         \$this->controller->redirect(\$value);
     }

@@ -1,7 +1,7 @@
 <snippet>
 	<content>
 <![CDATA[
-	public $belongsTo = array(
+	public \$belongsTo = array(
 		'${1}' => array('className' => '${2}',
 							'foreignKey' => '${3}',
 							'conditions' => ${4:array()},
